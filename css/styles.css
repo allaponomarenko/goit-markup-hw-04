@@ -390,7 +390,16 @@ body {
       transition: transform 250ms ease-in-out;
   }
 
-  .img-block:hover .overlay {
+  .producto-over:hover .overlay {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 40px 20px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     transform: translateY(0);
   }
 
