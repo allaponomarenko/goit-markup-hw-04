@@ -376,7 +376,7 @@ body {
     overflow: hidden;
   }
 
-  .overlay {
+  .producto-over {
     padding: 8px;
     background-color: #4D5AE5;
     color: #fff;
@@ -390,7 +390,7 @@ body {
       transition: transform 250ms ease-in-out;
   }
 
-  .producto-over:hover .overlay {
+  .producto-over:hover {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
