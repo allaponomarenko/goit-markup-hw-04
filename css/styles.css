@@ -240,17 +240,28 @@ body {
 
   .strategy-list {
     display: flex;
+    
     gap: 24px;
   }
 
   .strategy-list-li {
+    
+    border: 1px solid #434455;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    height: 112px;
+    
     width: calc((100% - 72px) / 4);
   }
 
 
 
   .strategy-icon {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
+    height: 112px;
+    margin: 24px 100px;
+   
+
   }
   
 
@@ -261,6 +272,9 @@ body {
   }
   
 
+  .strategy-main-p {
+    
+  }
   
   
   
@@ -275,6 +289,8 @@ body {
     line-height: 1.11;
     
   }
+
+  
   
   h3 {
     color: #2E2F42;
