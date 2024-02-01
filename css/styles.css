@@ -244,12 +244,7 @@ body {
     gap: 24px;
   }
 
-  .strategy-list-li {
-    
-   
-    
-    
-    
+  .strategy-list-li { 
     width: calc((100% - 72px) / 4);
   }
 
@@ -262,6 +257,9 @@ body {
     height: 112px;
     border: 1px solid #434455;
     border-radius: 4px;
+
+    margin-bottom: 8px;
+
     background-color: #F4F4FD;
    
 
