@@ -246,10 +246,9 @@ body {
 
   .strategy-list-li {
     
-    border: 1px solid #434455;
-    border-radius: 4px;
-    background-color: #F4F4FD;
-    height: 112px;
+   
+    
+    
     
     width: calc((100% - 72px) / 4);
   }
@@ -257,9 +256,13 @@ body {
 
 
   .strategy-icon {
-    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 112px;
-    margin: 24px 100px;
+    border: 1px solid #434455;
+    border-radius: 4px;
+    background-color: #F4F4FD;
    
 
   }
