@@ -48,9 +48,7 @@ body {
 
     /*header*/
 
-    .hed-nav{
-     
-     
+    .hed-nav{    
       border-bottom: 1px solid #e7e9fc;
     }
 
@@ -63,8 +61,7 @@ body {
       display: flex;
       align-items: center;
     }
-
-    
+  
     .logo {
       color: #4D5AE5;
       font-size: 18px;
@@ -97,8 +94,7 @@ body {
 
     .special-text {
       color: #404BBF;
-     display: flex;
-     
+     display: flex;  
      position: relative;
     }
 
@@ -114,20 +110,16 @@ body {
       margin-top: 20px;
     }
 
-    
-
     .contacts {
       font-style: normal;
       margin-left: auto;   
     }
 
-
     .comtacts-list {
       display: flex;
       gap: 40px;
     }
-
-    
+ 
     .contacts-addres {
       color: #434455;
       letter-spacing: 0.02em;
@@ -136,19 +128,14 @@ body {
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-
     .hed-list:focus, .hed-list:hover, .hed-list:active {
       color: #404bbf;
     }
-
 
     .link-contacts:hover, .link-contacts:focus .link-contacts:active {
       color: #404BBF;
     }
 
-    
-
-    
   
      /*main*/
   
@@ -158,7 +145,8 @@ body {
      .hero-content {
       background-color: #2E2F42;
       padding: 120px 0;
-      
+      margin: 0 auto;
+      max-width: 1440px;
       background-repeat: no-repeat;
       background-position: 50% 50%;
       background-size: cover;
@@ -179,8 +167,7 @@ body {
       margin: 188px 48px;
       margin: 0 auto;
       margin-bottom: 48px;
-      max-width: 496px;
-      
+      max-width: 496px;    
   }
   
   .order-service {
@@ -196,21 +183,17 @@ body {
     cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
-    margin: 0 auto;
-    margin-bottom: 188px;
+    margin: 0 auto;   
     border: none;
     height: 56px;
     min-width: 169px;
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
   }
   
   .order-service:hover {
     color: #FFFFFF;
-    background-color: #404BBF;
-    
+    background-color: #404BBF;  
   }
   
   .order-service:focus {
@@ -226,7 +209,6 @@ body {
     padding-bottom: 120px;
   }
 
-
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -241,16 +223,13 @@ body {
   }
 
   .strategy-list {
-    display: flex;
-    
+    display: flex;  
     gap: 24px;
   }
 
   .strategy-list-li { 
     width: calc((100% - 72px) / 4);
   }
-
-
 
   .strategy-icon {
     display: flex;
@@ -259,27 +238,13 @@ body {
     height: 112px;
     border: 1px solid #434455;
     border-radius: 4px;
-
     margin-bottom: 8px;
-
     background-color: #F4F4FD;
-   
-
   }
-  
-
 
   .icon {
-    fill: #4D5AE5;
-    
+    fill: #4D5AE5; 
   }
-  
-
-  .strategy-main-p {
-    
-  }
-  
-  
   
   h2 {
     color: #2E2F42;
@@ -289,12 +254,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    line-height: 1.11;
-    
+    line-height: 1.11;    
   }
 
-  
-  
   h3 {
     color: #2E2F42;
     font-family: Roboto;
@@ -311,7 +273,6 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-
   }
   
   /*section 3*/
@@ -329,9 +290,11 @@ body {
   }
   
   .imagines-list {
-    background-color: #FFFFFF;
-    line-height: 1.5;
-    border-radius: 0px 0px 4px 4px; 
+    background-color: #FFFFFF;  
+    border-radius: 0px 0px 4px 4px;   
+  }
+
+  .imagines-list-a {
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
   }
 
@@ -345,13 +308,18 @@ body {
     background-color: #FFFFFF;
   }
   
+  .personal-title {
+    line-height: 1.5;
+  }
 
   .main-tres-p {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     text-align: center;
+    margin-bottom: 8px;
   }
 
 
@@ -359,7 +327,7 @@ body {
   .social {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
   }
 
   .networks {
@@ -380,11 +348,8 @@ body {
   }
   
   .icon-networks {
-    fill: #fff;
-    stroke: #FFFFFF;
-    stroke-width: 2;
+    fill: #fff;   
   }
-
 
 .icon-link-networks:hover {
   background-color: #404BBF;
@@ -409,8 +374,7 @@ body {
     color: #2E2F42;
     text-align: center;
     font-family: Roboto;
-    font-size: 36px;
-    
+    font-size: 36px;  
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -427,16 +391,12 @@ body {
   }
 
   .img-block:hover .producto-over {
-    transform: translateY(0%);
-    
+    transform: translateY(0%); 
   }
 
   .img-block:hover {
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
   }
-
-
-  
 
   .img-block {
     width: calc((100% - 48px) / 3); 
@@ -449,8 +409,7 @@ body {
     overflow: hidden;
   }
 
-  .producto-over {
-    padding: 8px;
+  .producto-over {  
     background-color: #4D5AE5;
     color: #fff;
     font-family: sans-serif;
@@ -459,34 +418,18 @@ body {
       left: 0;
       width: 100%;
       height: 100%;
+      padding: 40px 20px;
       transform: translateY(100%);
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-  .producto-over:hover {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    padding: 40px 20px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    transform: translateY(0);
-  }
-
-
 
   .info-block {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
   }
-
   
   .list-portfolio {
-   
     margin-bottom: 8px;
   }
   
@@ -529,19 +472,16 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em; 
     line-height: 1.5; 
-    width: 264px;
-    
+    width: 264px;  
   }
 
   .foot {
-    
+    display: flex;
+    align-items: baseline;
   }
-  
-
 
   .social-footer {
     margin-left: 120px;
-  
   }
   
   .social-footer-text {
@@ -553,18 +493,18 @@ body {
     text-align: left;
     color: #FFFFFF;
     margin-bottom: 16px;
-
-
   }
   .social-footer-content {
     display: flex;
     justify-content: center;
     gap: 16px;
   }
+
   .foot-networks {
     width: 40px;
     height: 40px;
   }
+
   .foot-icon-link-networks {
     width: 100%;
     height: 100%;
@@ -575,10 +515,9 @@ body {
     border-radius: 50%;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .foot-icon-networks {
-    fill: #fff;
-    stroke: #FFFFFF;
-    stroke-width: 2;
+    fill: #fff; 
   }
 
   .foot-icon-link-networks:hover {
