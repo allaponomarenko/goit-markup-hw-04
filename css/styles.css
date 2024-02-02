@@ -50,6 +50,7 @@ body {
 
     .hed-nav{    
       border-bottom: 1px solid #e7e9fc;
+      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
     }
 
     .head-container {
@@ -98,19 +99,20 @@ body {
       color: #404BBF;
      display: flex;  
      position: relative;
+     
     }
 
-    .special-text::before {
+    .special-text::after {
       content: '';
-      width: 48px;
-      height: 4px;
-      border-radius: 2px;
-      background-color: #404BBF;
-      display: inline-block;
+      width: 100%;
       position: absolute;
-      bottom: 0;
-      margin-top: 20px;
+      left: 0;
+      bottom: -1px;
+      height: 4px;
+      background-color: #404bbf;
+      border-radius: 2px;
     }
+    
 
     .contacts {
       font-style: normal;
@@ -128,10 +130,17 @@ body {
       line-height: 1.5;
       padding: 24px 0;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+    }
+
+    .link-contacts: {
+      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .hed-list:focus, .hed-list:hover, .hed-list:active {
       color: #404bbf;
+      
     }
 
     .link-contacts:hover, .link-contacts:focus .link-contacts:active {
