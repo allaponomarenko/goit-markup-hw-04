@@ -475,7 +475,9 @@ body {
     padding: 100px 0; 
   }
 
- 
+  .foot-logo-p {
+    margin-right: 120px;
+  }
   
   .logo-footer {
     color: #4D5AE5;
@@ -508,9 +510,6 @@ body {
     align-items: baseline;
   }
 
-  .social-footer {
-    margin-left: 120px;
-  }
   
   .social-footer-text {
     font-family: Roboto;
